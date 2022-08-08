@@ -1,0 +1,11 @@
+package entities;
+
+public class Aluno {
+	public String nome;
+	public double primeiro, segundo, terceiro;
+	
+	public double notaFinal() {
+		return primeiro + segundo + terceiro;
+	}
+
+}
